@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>COSMOS — Interactive 3D Solar System & Space Mission Explorer</title>
+    <meta name="description" content="Explore our Solar System in interactive 3D and discover the landmark space missions that transformed our understanding of the universe. Real-time planetary mechanics, Apollo, Voyager, and JWST." />
+    <meta name="keywords" content="Solar System, 3D planets, space missions, Apollo 11, Voyager, JWST, Three.js, WebGL, astronomy education" />
+    <meta name="author" content="COSMOS Interactive Science" />
+    <meta name="theme-color" content="#030712" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cosmos-explorer.pages.dev/" />
+    <meta property="og:title" content="COSMOS — Solar System & Space Mission Explorer" />
+    <meta property="og:description" content="Immersive 3D interactive Solar System, cinematic camera choreography, and historical space mission timeline." />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cosmos-explorer.pages.dev/" />
+    <meta property="twitter:title" content="COSMOS — Solar System & Space Mission Explorer" />
+    <meta property="twitter:description" content="Explore our Solar System in interactive 3D. Realistic planetary orbits, scale comparisons, and mission trajectories." />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "COSMOS — Solar System & Space Mission Explorer",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All modern browsers with WebGL support",
+      "description": "Interactive 3D Solar System & space mission timeline featuring Apollo, Voyager, and James Webb Space Telescope."
+    }
+    </script>
+  </head>
+  <body class="bg-[#030712] text-slate-100 overflow-hidden select-none m-0 p-0 antialiased font-sans">
+    <div id="root" class="w-full h-full min-h-screen"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

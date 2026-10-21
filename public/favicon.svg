@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#030712"/>
+  <circle cx="32" cy="32" r="14" fill="url(#sunGrad)"/>
+  <ellipse cx="32" cy="32" rx="28" ry="10" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7" transform="rotate(-25 32 32)"/>
+  <circle cx="50" cy="24" r="3" fill="#00f0ff"/>
+  <ellipse cx="32" cy="32" rx="20" ry="6" stroke="#ffb703" stroke-width="1" opacity="0.5" transform="rotate(35 32 32)"/>
+  <circle cx="16" cy="40" r="2.5" fill="#ff6b35"/>
+  <defs>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="40%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#ff4800"/>
+    </radialGradient>
+  </defs>
+</svg>
