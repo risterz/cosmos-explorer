@@ -3,10 +3,12 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.170-black?logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-Deployed-F38020?logo=cloudflare&logoColor=white)](https://pages.cloudflare.com/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-Live_Site-F38020?logo=cloudflare&logoColor=white)](https://cosmos-explorer-prz.pages.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> A museum-grade, production-quality interactive 3D Solar System & Space Mission Explorer combining real-time WebGL planetary mechanics with humanity's greatest milestones in space exploration.
+> **Live Deployment:** [https://cosmos-explorer-prz.pages.dev](https://cosmos-explorer-prz.pages.dev)
+
+A museum-grade, production-quality interactive 3D Solar System & Space Mission Explorer combining real-time WebGL planetary mechanics with humanity's greatest milestones in space exploration.
 
 ---
 
